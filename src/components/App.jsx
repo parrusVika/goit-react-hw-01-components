@@ -1,3 +1,8 @@
+import Profile from "components/profile";
+import { user } from "us"
+
+
+
 export const App = () => {
   return (
     <div
@@ -10,7 +15,10 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <Profile
+        user={user.a} />
     </div>
   );
 };
+
+
