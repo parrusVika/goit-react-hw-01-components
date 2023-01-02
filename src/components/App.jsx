@@ -1,5 +1,4 @@
 import Profile from "components/profile";
-import { user } from "us"
 
 
 
