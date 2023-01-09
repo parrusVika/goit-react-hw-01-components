@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/parrusVika/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/parrusVika/goit-react-hw-01-components/static/js/main.5c3ef68c.js",
-    "index.html": "/parrusVika/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/parrusVika/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.5c3ef68c.js.map": "/parrusVika/goit-react-hw-01-components/static/js/main.5c3ef68c.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.d38d41be.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.5361c2b6.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.d38d41be.css.map": "/goit-react-hw-01-components/static/css/main.d38d41be.css.map",
+    "main.5361c2b6.js.map": "/goit-react-hw-01-components/static/js/main.5361c2b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.5c3ef68c.js"
+    "static/css/main.d38d41be.css",
+    "static/js/main.5361c2b6.js"
   ]
 }
