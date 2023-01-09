@@ -1,0 +1,32 @@
+.title {
+    color: #010101;
+    text-align: center;
+}
+
+.statlist {
+    list-style: none;
+    display: flex;
+    font-size: 40px;
+    color: #010101;
+}
+
+.statitem {
+
+
+    color: #010101;
+    font-size: 40px;
+}
+
+.label {
+    display: block;
+    list-style: none;
+    font-size: 40px;
+    margin: 10px;
+    color: #010101;
+}
+
+.percentage {
+    font-size: 40px;
+    margin: 10px;
+    color: #010101;
+}

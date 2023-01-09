@@ -1,0 +1,32 @@
+.frendlist {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .frenditem {
+    height: 40px;
+} */
+
+.isOnline {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 40px;
+    background-color: greenyellow;
+}
+
+.offline {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: red;
+}
+
+.name {
+    color: #101010;
+    font-size: 40px;
+    margin: 0;
+}
