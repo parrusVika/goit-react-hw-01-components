@@ -1,7 +1,29 @@
-.profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    color: #010101;
+.userInfo {
+    /* display: flex; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.stats {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.list {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.label {
+    margin-left: 20px;
 }

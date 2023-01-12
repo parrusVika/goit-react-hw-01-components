@@ -5,7 +5,7 @@ import friends from "data/friends.json";
 import transactions from "data/transactions.json";
 // components
 import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statis';
+import { Statistics } from 'components/Statistics/Statistics';
 import { FriendList } from 'components/FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 
@@ -13,14 +13,12 @@ export const App = () => {
   return (
     <div
       style={{
-
-        display: 'grid',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 32,
+        margin: '0 auto',
+        padding: '20px',
+      }}>
       <Profile users={users} />
       <Statistics title="Upload stats" statis={data} />
       <FriendList friends={friends} />

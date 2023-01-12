@@ -1,0 +1,33 @@
+.title {
+    color: #010101;
+    text-align: center;
+    font-size: 25px;
+}
+
+.statlist {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.statitem {
+
+    list-style: none;
+    color: #010101;
+    font-size: 25px;
+}
+
+.label {
+    display: block;
+    list-style: none;
+    font-size: 25px;
+    margin: 10px;
+    color: #010101;
+}
+
+.percentage {
+    font-size: 25px;
+    margin: 10px;
+    color: #010101;
+}
