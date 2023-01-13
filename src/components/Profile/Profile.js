@@ -19,25 +19,25 @@ export function Profile({
                     alt={username}
                     className={css.avatar}
                 />
-                <p classNamе={css.listItem}>{username}</p>
-                <p classNamе={css.listItem}>@{tag}</p>
-                <p classNamе={css.listItem}>{location}</p>
+                <p className={css.listItem}>{username}</p>
+                <p className={css.listItem}>@{tag}</p>
+                <p className={css.listItem}>{location}</p>
             </div>
 
 
 
-            <ul classNamе={css.stats}>
+            <ul className={css.stats}>
                 <li className={css.list}>
-                    <span classNamе={css.labal}>followers  </span>
-                    <span classNamе={css.quantity}>{followers}</span>
+                    <span className={css.labal}>followers  </span>
+                    <span className={css.quantity}>{followers}</span>
                 </li>
                 <li className={css.list}>
-                    <span classNamе={css.labal}>Views  </span>
-                    <span classNamе={css.quantity}>{views}</span>
+                    <span className={css.labal}>Views  </span>
+                    <span className={css.quantity}>{views}</span>
                 </li >
                 <li className={css.list}>
-                    <span classNamе={css.labal}>Likes  </span>
-                    <span classNamе={css.quantity}>{likes}</span>
+                    <span className={css.labal}>Likes  </span>
+                    <span className={css.quantity}>{likes}</span>
                 </li >
             </ul>
         </div>
@@ -45,11 +45,14 @@ export function Profile({
 }
 
 Profile.propTypes = {
-    username: PropTypes.string.isRequired,
-    tag: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-    stats: PropTypes.string.isRequired,
-    followers: PropTypes.number.isRequired,
-    views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired,
+    userns: PropTypes.shape({
+        username: PropTypes.string.isRequired,
+        tag: PropTypes.string.isRequired,
+        location: PropTypes.string.isRequired,
+        stats: PropTypes.shape({
+            followers: PropTypes.number.isRequired,
+            views: PropTypes.number.isRequired,
+            likes: PropTypes.number.isRequired
+        })
+    })
 }

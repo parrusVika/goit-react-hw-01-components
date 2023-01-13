@@ -22,7 +22,7 @@ export function FriendList({ friends }) {
 FriendList.propTypes = {
     frends: PropTypes.arrayOf(
         PropTypes.shape({
-            id: PropTypes.string.isRequired,
+            id: PropTypes.number.isRequired,
             name: PropTypes.string.isRequired,
             avatar: PropTypes.string.isRequired,
             isOnline: PropTypes.bool.isRequired,
