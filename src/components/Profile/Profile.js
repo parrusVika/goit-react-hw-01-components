@@ -45,7 +45,7 @@ export function Profile({
 }
 
 Profile.propTypes = {
-    userns: PropTypes.shape({
+    users: PropTypes.shape({
         username: PropTypes.string.isRequired,
         tag: PropTypes.string.isRequired,
         location: PropTypes.string.isRequired,
